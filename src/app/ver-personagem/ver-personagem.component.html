@@ -1,0 +1,5 @@
+<h1>{{player.nome}}</h1>
+<div>{{player.atualVida}}/{{player.maxVida}}</div>
+<button class="botao" (click)="BotaoDano()">Dano</button>
+<li *ngIf = "morreu ==false"><img class = "player" src= "../../assets/Player.png"></li>
+<li *ngIf = "morreu == true">{{player.nome}} desmaiou<img class = "player"src= "../../assets/Player_dead.png"></li>
