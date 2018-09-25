@@ -1,0 +1,14 @@
+.home
+{
+    padding:50px;
+    background: rgb(4, 250, 21);   
+}
+.casa
+{
+    position: relative;
+    top:15%;
+}
+.opcoes
+{
+    padding: 50px;
+}
